@@ -54,18 +54,18 @@ workflows:
 
   development:
     jobs:
-      - run_linter:
+      - linter:
           filters:
             branches:
               only: main
-      - run_tests:
+      - test:
           filters:
             branches:
               only: main
       - generate_release:
           requires:
-            - run_linter
-            - run_tests
+            - linter
+            - test
           filters:
             branches:
               only: main
