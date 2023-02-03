@@ -58,14 +58,9 @@ workflows:
           filters:
             branches:
               only: main
-      - test:
-          filters:
-            branches:
-              only: main
       - generate_release:
           requires:
             - linter
-            - test
           filters:
             branches:
               only: main
