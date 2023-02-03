@@ -31,7 +31,7 @@ jobs:
             sudo npm i -g @semantic-release/changelog @semantic-release/git semantic-release
             semantic-release
 
-  run_linter:
+  linter:
     executor: node
     steps:
       - checkout
@@ -40,7 +40,7 @@ jobs:
           name: 'Run Linter'
           command: npm run lint
 
-  run_tests:
+  test:
     executor: node
     steps:
       - checkout
