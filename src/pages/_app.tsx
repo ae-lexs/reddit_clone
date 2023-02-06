@@ -4,10 +4,15 @@ import { ChakraProvider } from '@chakra-ui/react';
 // Chakra
 import CustomTheme from '../chakra/theme';
 
+// Components
+import Layout from '../components/layout';
+
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider theme={CustomTheme}>
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </ChakraProvider>
   );
 }
