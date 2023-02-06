@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/ae-lexs/reddit_clone/compare/v1.0.0...v1.1.0) (2023-02-06)
+
+
+### Features
+
+* Add basic structure of navbar. ([8bc9199](https://github.com/ae-lexs/reddit_clone/commit/8bc91995f1bc7a4b26640653917c8465b8e422ac))
+
 # 1.0.0 (2023-02-03)
 
 
