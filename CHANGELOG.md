@@ -1,3 +1,13 @@
+# [1.2.0](https://github.com/ae-lexs/reddit_clone/compare/v1.1.0...v1.2.0) (2023-02-11)
+
+
+### Features
+
+* Add tests for AuthModalReducer. ([3a45902](https://github.com/ae-lexs/reddit_clone/commit/3a45902515db945b3dd3b7d11b0a15a90e036c55))
+* Configure jest. ([d635990](https://github.com/ae-lexs/reddit_clone/commit/d635990fca421155d2eca5db999ff1b76c3497f2))
+* Delete recoil from dependencies. ([ebc1d16](https://github.com/ae-lexs/reddit_clone/commit/ebc1d1684d21b6b4782cb3bf7464ac40004ff5ef))
+* Update CircleCI config to use the test job. ([e817631](https://github.com/ae-lexs/reddit_clone/commit/e817631638f34d1c8938e00f93fe696dce36a832))
+
 # [1.1.0](https://github.com/ae-lexs/reddit_clone/compare/v1.0.0...v1.1.0) (2023-02-06)
 
 
