@@ -1,6 +1,7 @@
 env:
   browser: true
   es2021: true
+  jest: true
 extends:
   - plugin:react/recommended
   - airbnb
@@ -22,3 +23,5 @@ rules:
     - extensions:
         - '.tsx'
   'react/jsx-props-no-spreading': 'off'
+  'no-unused-vars': off
+  'no-shadow': off
